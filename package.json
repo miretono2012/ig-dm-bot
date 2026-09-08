@@ -1,0 +1,17 @@
+{
+  "name": "ig-dm-bot",
+  "version": "1.0.0",
+  "description": "Bot de auto-respuesta de DMs de Instagram usando la API oficial de Meta",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}

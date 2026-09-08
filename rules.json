@@ -1,0 +1,29 @@
+{
+  "default_reply": "¡Gracias por escribirnos! En breve una persona del equipo te va a responder. Mientras tanto, contanos en qué te podemos ayudar 😊",
+  "rules": [
+    {
+      "keywords": ["hola", "buenas", "hey", "hi"],
+      "reply": "¡Hola! 👋 Bienvenido/a. ¿En qué te puedo ayudar hoy?"
+    },
+    {
+      "keywords": ["precio", "cuanto cuesta", "cuánto cuesta", "costo", "vale"],
+      "reply": "¡Buena pregunta! Te paso los precios en un momento. Mientras tanto, ¿me contás qué producto/servicio te interesa?"
+    },
+    {
+      "keywords": ["horario", "abren", "atienden", "abierto"],
+      "reply": "Nuestro horario de atención es de lunes a viernes de 9 a 18hs. ¡Te esperamos!"
+    },
+    {
+      "keywords": ["ubicacion", "ubicación", "direccion", "dirección", "donde estan", "dónde están"],
+      "reply": "Estamos ubicados en [tu dirección acá]. ¡Te esperamos!"
+    },
+    {
+      "keywords": ["gracias", "genial", "perfecto"],
+      "reply": "¡Con gusto! Cualquier otra cosa que necesites, avisanos 🙌"
+    },
+    {
+      "keywords": ["humano", "persona real", "hablar con alguien"],
+      "reply": "¡Por supuesto! En breve alguien del equipo te va a contactar directamente."
+    }
+  ]
+}
